@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: darkslategrey;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 13px;
+        }
+
+        h1 {
+            box-shadow: 2px 2px 7px 2px black;
+        }
+        
+        h2 {
+            box-shadow: -1px -3px 4px 2px black
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 13px;
+        }
+
+        nav{
+            background-color: lightgreen;
+            margin: 5px;
+        }
+
+        nav > a{
+            
+            color: rgb(117, 117, 117);
+            text-decoration: none;
+            font-weight: 600;
+            margin-right: 10px;
+            box-shadow: 1px 0px 4px 1px black;
+        }
+
+        article{
+            background-color: lightgreen;
+            padding: 1px;
+        }
+
+        article > aside{
+            background-color: rgb(126, 164, 175);
+
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+    <section id="noticias">
+        <article>
+            <h2>noticias sobre o brasil</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nobis provident minus repellendus quae doloremque. Consequuntur quod harum, modi iure repellendus perspiciatis dicta minima. Modi sit quia recusandae numquam voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab praesentium, accusantium ut perspiciatis repellat molestiae quam sint? Laboriosam error, ducimus facilis commodi nostrum similique vitae saepe, ex nemo architecto dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero necessitatibus nobis facilis, repudiandae quos reiciendis quas explicabo facere eveniet, laudantium tempora fugiat ipsum, dicta quidem. Dolore at perspiciatis doloribus nulla?</p>
+            <aside>
+                <p>Artigo escrito por Ryan Basilio</p>
+            </aside>
+        </article>
+    </section>
+    </main>
+    <footer>
+        <p>Desenvolvedor de sites</p>
+    </footer>
+</body>
+</html>
